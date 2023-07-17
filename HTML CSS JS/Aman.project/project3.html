@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0%;
+            margin: 0;
+
+        }
+        #container {
+            margin-top:20px;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            margin: auto;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            width: 50%;
+            height: 600px;
+            border: 2px solid black;
+            display: flex;
+            gap: 20px;
+            border-radius: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            /* margin-top: 15px; */
+            font-size: 40px;
+        }
+
+        .firstbox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .secondbox {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        .first {
+            padding: 10px;
+            padding-left: 20px;
+            background-color: rgba(7, 95, 135, 0.697);
+            color: white;
+            margin-left: 5px;
+            border: 1px solid black;
+            border-radius: 20px;
+            width: 40%;
+            height: 250px;
+
+        }
+
+
+        .second {
+            padding: 10px;
+            padding-left: 20px;
+            background-color: rgba(12, 165, 236, 0.697);
+            color: white;
+            border-radius: 20px;
+            margin-left: 5px;
+            border: 1px solid black;
+            width: 40%;
+            height: 250px;
+        }
+
+        .list {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="firstbox">
+            <img style="height: 300px; width: 70%; border-radius: 25px;"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Blue_computer_icon.svg/1024px-Blue_computer_icon.svg.png"
+                alt="">
+            <img style="height: 300px; width: 70%; border-radius: 25px;"
+                src="https://static.thenounproject.com/png/3360658-200.png" alt="">
+        </div>
+        <div class="secondbox">
+            <div class="first">
+                <h1>Front End</h1>
+                <ul style="list-style-type: disc;">
+                    <li class="list">Markup and web languages such as HTML,CSS and Javascript</li>
+                    <li>Asynchronous requests and Ajax</li>
+                    <li>Specialized web editing software</li>
+                    <li>Image editing</li>
+                    <li>Accessbility</li>
+                    <li>Cross-browser issues</li>
+                    <li>Search engine optimisation</li>
+                </ul>
+            </div>
+            <div class="second">
+                <h1>Back End</h1>
+                <ul style="list-style-type: disc;">
+                    <li class="list">Programming and scripting such as Python, Ruby and/or perl</li>
+                    <li>Server architecture</li>
+                    <li>Database administration</li>
+                    <li>Scalability</li>
+                    <li>Security</li>
+                    <li>Data transformation</li>
+                    <li>Backup</li>
+                </ul>
+            </div>
+        </div>
+    
+</body>
+
+</html>

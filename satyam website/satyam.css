@@ -1,0 +1,42 @@
+body{
+    background-color: bisque;
+    background-image: url(https://cdn.pixabay.com/photo/2017/03/25/17/55/colorful-2174045__340.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.first{
+    text-align: center;
+    position: relative;
+    top: 185px;
+    color: rgba(1, 113, 117, 0.64) ;
+}
+p{
+    text-align: center;
+    position: relative;
+    top: 165px;
+}
+hr{
+    margin-right: 400px;
+    margin-left: 400px;
+    position: relative;
+    top: 170px;
+    
+}
+.three{
+    position: relative;
+    top: 165px;   
+    margin-left: 48%;
+    border: 2px solid black;
+}
+#second{
+    position: relative;
+    margin-left: 47%;
+    border-radius: 100px;
+}
+/* #five{
+    margin-right: 10%;
+    position: relative;
+    margin-left: 87%;
+  
+} */
+   

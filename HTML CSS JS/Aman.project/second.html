@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: linear-gradient(to left, rgb(204, 152, 152),rgb(115, 115, 179));
+        }
+        .maincontainer{
+            display: flex;
+             align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .container {
+            background-color: white;
+            width: 50%;
+            /* margin: 10% 10% 10% 25%; */
+            height: 450px;
+            /* align-items: center; */
+            border: 2px solid black;
+            
+
+        }
+
+        img {
+            margin-top: 70px;
+        }
+
+        h1 {
+            margin-top: 15px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 35px;
+        }
+
+        p {
+            margin-top: 10px;
+        }
+
+        
+        h1,p {
+            text-align: center;
+        }
+
+        img {
+            width: 7%;
+            margin-left: 48%;
+            border-radius: 10px;
+        }
+
+        input {
+            margin:35px;
+        }
+
+        input[type=text] {
+            width: 200px;
+            padding: 10px;
+            border-radius: 20px;
+            margin-left: 140px;
+
+        }
+
+        input[type=submit] {
+            width: 150px;
+            padding: 10px;
+            border-radius: 20px;
+            float: right;
+            margin-right: 200px;
+            margin-bottom: 40px;
+            background-color: rgb(254, 137, 95);
+            color: aliceblue;
+        }
+        input:hover{
+            color: tan;
+            background-color: rgb(31, 30, 30);
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="maincontainer" >
+        <div class="container">
+            <img src="https://cdn.imgbin.com/12/21/21/imgbin-email-computer-icons-logo-email-61tT8WZwjzSaJiZAqgL8S9Gbi.jpg"
+                alt="loading">
+            <h1>SUBSCRIBE</h1>
+            <p> to our newsletter and stay updated.</p>
+            <input type="text" placeholder="Your Email">
+           <a href=""><input type="submit" value="Subscribe"></a>
+        </div>
+    </div>
+   
+   <script> src="script.js"</script>
+</body>
+
+</html>

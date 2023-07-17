@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman project</title>
+    <style>
+        .container {
+            background-color: rgb(238, 206, 206);
+            border: 2px solid black;
+            margin-top: 3%;
+            margin-right: 15%;
+            margin-left: 15%;
+            border-radius: 5%;
+            padding: 20px;
+        }
+
+        h3 input,
+        select,
+        textarea {
+            width: 30%;
+            float: right;
+            margin-right: 40%;
+        }
+
+        body {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        #forms {
+            margin-top: 50px;
+        }
+
+        h3 {
+            margin-top: 20px;
+            margin-left: 30%;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        h3 select {
+            margin-left: 120px;
+            justify-content: center;
+        }
+
+        input[type=submit] {
+            border: 1px solid black;
+            padding: 2px;
+            width: 60px;
+            border-radius: 10px;
+            margin-top: 40px;
+            margin-left: 45%;
+        }
+/* 
+        h3[type=radio] {
+            width: 30%;
+            float: right;
+            margin-right: 40%;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Reservation Form</h1>
+        <form id="forms">
+            <h3>Name* <input type="text" placeholder="Name"></h3>
+            <h3>Email* <input type="text" placeholder="Email"></h3>
+            <h3>Room Type
+                <select>
+                    <option value="AC rooms"> Ac rooms</option>
+                    <option value="Non-AC rooms"> Non-AC rooms</option>
+                </select>
+            </h3>
+
+            <h3>Arrival Date* <input type="text"></h3>
+            <h3>Departure Date* <input type="text"></h3>
+            <h3>Number of Guests* <input type="text"></h3>
+            <!-- <div class="aman">
+                <h3>Free Pickup </h3>
+                <input type="radio" value="Yes">
+                <label for="yes">Yes</label>
+                <input type="radio" value="no" name>
+                <label for="no">No</label>
+            </div> -->
+
+
+            <h3>Fight Number <input type="text" placeholder="Fight Number"></h3>
+            <h3>Special Requests
+                <label for="type here"></label>
+                <textarea name="type here " placeholder="type here"></textarea>
+            </h3>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
+</body>
+
+</html>

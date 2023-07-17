@@ -1,0 +1,103 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    display: flex;
+    /* flex-direction: row; */
+   
+}
+.form-site{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    height: 100vh;
+    /* border: 2px solid darkcyan; */
+    background-color: rgb(24, 24, 24);
+    color:white;
+    gap: 500px;
+
+}
+.start{
+    line-height: 40px;
+  
+}
+img{
+    width: 300px;
+}
+/* .heading{
+    margin-top: 53px
+}
+.password{
+    margin-top: 15px;
+} */
+input{
+    background-color: black;
+}
+
+input,button{
+    width: 320px;
+    height: 30px;
+}
+.link a{
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    color: #2ea0d6;
+    text-align: center;
+}
+button{
+    display: block;
+    margin-top: 20px;
+    /* width: 320px;
+    height: 30px; */
+}
+.bar{
+    flex: auto;
+    border: none;
+    height: 1px;
+    background-color: hsla(0,0%,100%,.15);
+}
+.second-site{
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+    width: 60%;
+    height: 100vh;
+    /* background-color: blueviolet; */
+    border: 2px solid rgb(66, 65, 65);
+    border: none;
+}
+.terms a{
+align-items: center;
+border: 2px solid rgb(92, 92, 16);
+margin-left: 25%;
+}
+.second-site{
+    background: url(https://app.pluralsight.com/id/img/login-bg.jpg);
+    background-position: 50%;
+    background-size: cover;
+    /* width: 100%; */
+}
+.site{
+    background-color: transparent;
+    color: aliceblue;
+}
+.site a{
+    color: hsla(0,0%,100%,.95);
+    /* border: 1px solid hsla(0,0%,100%,.3); */
+    text-decoration: none;
+    height: 30px;
+    border: none;
+    font-weight: 400px;
+}
+.second-site h1{
+    font-size: 48px;
+    display:block;
+    color: white;
+    margin-bottom: 24px;
+}

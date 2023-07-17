@@ -1,0 +1,13 @@
+.first{
+    border: 2px solid black;
+    background-color: rgb(5, 4, 4);
+    color: aliceblue;
+    width: 50%;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-left:24%;
+    height: 450px;
+}
+
+
